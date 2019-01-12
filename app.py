@@ -14,8 +14,15 @@ import numpy as np
 
 app = Flask(__name__)
 
-@app.route('/v1/get_message',methods=["GET"])
+
+
+@app.route('/')
 def index():
+    return "HELLO"
+
+
+@app.route('/v1/get_message',methods=["GET"])
+def get_message():
     
     message = picked_up()
                 
