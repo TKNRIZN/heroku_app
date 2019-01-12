@@ -1,11 +1,3 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-"""
-Created on Sat Jan 12 00:15:18 2019
-
-@author: takanori
-"""
-
 from flask import Flask, render_template, request, redirect, url_for
 import numpy as np
 
